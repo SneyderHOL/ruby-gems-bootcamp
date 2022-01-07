@@ -26,6 +26,7 @@
       %form.d-flex
         %input.form-control.me-2{"aria-label" => "Search", :placeholder => "Search", :type => "search"}/
         %button.btn.btn-outline-success{:type => "submit"} Search
+
 %h1 Hello World!
 %i.fas.fa-home
 %p Home icon
@@ -33,3 +34,7 @@
 = link_to privacy_policy_path do
   %i.fas.fa-file-word
   Privacy Policy
+
+= link_to courses_path class: 'btn btn=success' do
+  .fa.fa-book
+  Courses
